@@ -21,7 +21,9 @@
     "afterSign": "./build/notarize.js",
     "mac": {
       "category": "your.app.category.type",
-      "hardenedRuntime": true
+      "hardenedRuntime": true,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist"
     },
     "win": {
       "target": "nsis"
