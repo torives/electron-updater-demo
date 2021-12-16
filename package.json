@@ -20,7 +20,8 @@
     "appId": "com.github.iffy.electronupdaterexample",
     "afterSign": "./build/notarize.js",
     "mac": {
-      "category": "your.app.category.type"
+      "category": "your.app.category.type",
+      "hardenedRuntime": true
     },
     "win": {
       "target": "nsis"
